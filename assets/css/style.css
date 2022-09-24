@@ -1,0 +1,16 @@
+/* #FF2700 
+#CC1F00
+#801300 */
+
+* {
+    margin: 0%;
+      padding: 0%;
+}
+
+.banner{
+  height: 620px;
+  width: 100%;
+  background-image: url("../Images/Bkg\ Banner.png");
+  background-position: center;
+    background-size: cover;
+}
