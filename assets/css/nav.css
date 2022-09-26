@@ -1,4 +1,4 @@
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
     height: 100%;
@@ -18,4 +18,5 @@
     margin: 0%;
     padding: 0%;
     display: block;
+    margin-top: 10px;
 }

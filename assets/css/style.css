@@ -5,12 +5,22 @@
 * {
     margin: 0%;
       padding: 0%;
+      font-family: jetbrains mono;
 }
 
 .banner{
-  height: 620px;
+  align-items: flex;
+  height: 720px;
   width: 100%;
   background-image: url("../Images/Bkg\ Banner.png");
   background-position: center;
     background-size: cover;
+}
+
+.origin{
+  background-color: rgb(164, 163, 163);
+  padding: 10px;
+  padding-right: 45px;
+  margin-left: 55;
+
 }
