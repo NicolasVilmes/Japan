@@ -17,10 +17,17 @@
     background-size: cover;
 }
 
+.banner h1{
+  font-size: 120px;
+  padding: 100px;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
 .origin{
   background-color: rgb(164, 163, 163);
   padding: 10px;
   padding-right: 45px;
   margin-left: 55;
-
-}
+} 
