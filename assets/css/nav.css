@@ -8,7 +8,7 @@ nav {
   justify-content: space-around;
     height: 100%;
     align-items: center;
-  background-color: black;
+  background-color: white;
 }
 
 .nav-list {
@@ -21,15 +21,16 @@ nav {
 .nav-left img {
     width: 64px;
     height: auto;
-    margin: 0%;
+    margin: 15%;
     margin-left: -500%;
     padding: 0%;
     display: block;
     margin-top: 10px;
+    align-items: center;
 }
 
 .nav-list li{
-  color: white;
+  color: black;
   letter-spacing: 3px;
   margin-left: 32px; 
 }

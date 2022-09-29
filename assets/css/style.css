@@ -12,17 +12,18 @@
   align-items: flex;
   height: 720px;
   width: 100%;
-  background-image: url("../Images/Bkg\ Banner.png");
+  background-image: url("../Images/Bkg\ Banner.jpg");
   background-position: center;
     background-size: cover;
 }
 
 .banner h1{
-  font-size: 120px;
-  padding: 100px;
+  font-size: 110px;
+  padding: 110px;
   align-items: flex-start;
   margin-left: 20px;
   margin-bottom: 100px;
+  color: azure;
 }
 
 .origin{
@@ -30,4 +31,6 @@
   padding: 10px;
   padding-right: 45px;
   margin-left: 55;
+  border-radius: 75px;
+  display: inline;
 } 
