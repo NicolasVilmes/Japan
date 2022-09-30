@@ -1,15 +1,16 @@
-##Curiosities About Japan
+<h1>Curiosities About Japan </h1>
 
-This site was created for a school project with the objective of talk about generic informations of japan and some curiosities;
+This site was created for a school project with the objective of talk about some informations of japan, like culture, history, population, economy and some curiosities;
 
-#⚙️ Tecnologies
+<h2>⚙️ Tecnologies </h2>
 
--HTML
--CSS
--Javascript
--Git and Github
+<ul>
+<li> HTML </li>
+<li> CSS </li>
+<li> Javascript </li>
+<li> Git and Github </li>
 
-## 🎓: Authors
+<h2>🎓: Authors </h2>
 
 <table align="center">
     <tr>
