@@ -24,7 +24,7 @@ This site was created for a school project with the objective of talk about some
     <a href="https://github.com/PedroHenriqueCoppola">
         <img src="https://avatars.githubusercontent.com/PedroHenriqueCoppola" width="150px;" alt="Image to Pedro" />
         <br />
-        <sub><b>Pedro Henrique Cappola</b></sub>
+        <sub><b>Pedro Henrique Coppola</b></sub>
   </a>
         <td align="center">
       <a href="https://github.com/uBrunoow">
