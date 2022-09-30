@@ -8,6 +8,14 @@
       font-family: jetbrains mono;
 }
 
+.bar{
+  width: 15rem;
+  height: 22px;
+  background-color: #801300;
+  margin-top: 55px;
+  margin-left: 65px;
+}
+
 .banner{
   align-items: flex;
   height: 720px;
@@ -27,10 +35,38 @@
 }
 
 .origin{
-  background-color: rgb(164, 163, 163);
+  background-color: rgb(61, 59, 59);
   padding: 10px;
   padding-right: 45px;
   margin-left: 55;
   border-radius: 75px;
   display: inline;
 } 
+
+.sociopolitical{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: transparent;
+}
+
+.socio-text{
+ padding: 5rem;
+}
+
+.socio-text span{
+  font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.socio-img{
+  grid-column: 2/3;
+  grid-row: 1/3;
+  background-image: url(../Images/japan\ streets.jpg );
+  padding: 100px;
+  margin-right: 51px;
+  margin-top: 55px;
+  border-radius: 5rem;
+  background-size: cover;
+  background-position: center;
+}
