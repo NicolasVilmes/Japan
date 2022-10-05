@@ -7,6 +7,7 @@ nav {
   display: flex;
   justify-content: space-around;
     height: 100%;
+    width: 100%;
     align-items: center;
   background-color: white;
 }
@@ -19,10 +20,10 @@ nav {
 }
 
 .nav-left img {
-    width: 64px;
+    width: 52px;
     height: auto;
     margin: 15%;
-    margin-left: -500%;
+    margin-left: -400%;
     padding: 0%;
     display: block;
     margin-top: 10px;
@@ -33,4 +34,5 @@ nav {
   color: black;
   letter-spacing: 3px;
   margin-left: 32px; 
+  font-size: 0.8em;
 }
