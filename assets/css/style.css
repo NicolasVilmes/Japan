@@ -14,7 +14,6 @@
   background-color: #CC1F00;
   margin-top: 55px;
   margin-left: 65px;
-  box-shadow:  #801300 2px 5px 15px 5px;
 }
 
 .banner{
@@ -24,6 +23,7 @@
   background-image: url("../Images/Bkg\ Banner.jpg");
   background-position: center;
   background-size: cover;
+  box-shadow: -3px 3px 15px;
   
 }
 
@@ -138,7 +138,7 @@
   padding: 100px;
   margin-right: 51px;
   margin-top: 55px;
-  border-radius: 5rem;
+  border-radius: 20px;
   background-size: cover;
   background-position: center;
 }
