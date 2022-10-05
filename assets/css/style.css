@@ -1,6 +1,6 @@
 /* #FF2700 
 #CC1F00
-#801300 */
+#801300*/
 
 * {
     margin: 0%;
@@ -11,9 +11,10 @@
 .bar{
   width: 15rem;
   height: 22px;
-  background-color: #801300;
+  background-color: #CC1F00;
   margin-top: 55px;
   margin-left: 65px;
+  box-shadow:  #801300 2px 5px 15px 5px;
 }
 
 .banner{
@@ -22,7 +23,8 @@
   width: 100%;
   background-image: url("../Images/Bkg\ Banner.jpg");
   background-position: center;
-    background-size: cover;
+  background-size: cover;
+  
 }
 
 .banner h1{
@@ -36,25 +38,82 @@
 
 .origin{
   background-color: rgb(61, 59, 59);
+  display: inline-flex;
+  align-items: center;
   padding: 10px;
+  margin-left: 45px;
+  border-radius: 55px;
+}
+
+.origin span{
+  display: none;
+}
+
+.origin:hover span{
+    background-color: rgb(242, 0, 0);
+      display: inline-flex;
+      align-items: center;
+      padding: 10px;
+      margin-left: 45px;
+      border-radius: 55px;
+}
+/* .origin{
+  background-color: rgb(61, 59, 59);
+  padding: 10px;
+  position: relative;
+  align-items: center;
   padding-right: 45px;
-  margin-left: 55;
+  margin-left: 55px;
   border-radius: 75px;
-  display: inline;
-} 
+  display: inline-flex;
+  align-items: center;
+}  */
+/* .origin span{
+  display: inline-flex;
+} */
+
+/* .origin:hover {
+    background-color: rgb(61, 59, 59);
+    position:relative;
+    padding-right: 45px;
+    margin-left: 55px;
+    border-radius: 75px;
+    display: inline-flex;
+    align-items: center;
+    color: aliceblue;
+  
+} */
+
+.origin img {
+  height: 35px;
+  width: 35px;
+  
+  padding: 5px;
+  background-color: rgb(61, 59, 59);
+  opacity: 45%;
+}
 
 .sociopolitical{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: transparent;
+    align-self: center;
 }
 
 .socio-text{
  padding: 5rem;
 }
 
+.socio-text h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-style:oblique;
+  margin-left: 35px;
+  text-align: justify;
+}
+
 .socio-text span{
-  font-size: 25px;
+  font-size: 35px;
     line-height: 30px;
     margin-bottom: 30px;
 }
@@ -69,4 +128,16 @@
   border-radius: 5rem;
   background-size: cover;
   background-position: center;
+}
+
+.vision{
+  display: flexbox;
+  background-color: #801300;
+  height: 350px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 50px;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
