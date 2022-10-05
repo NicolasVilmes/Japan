@@ -22,9 +22,7 @@
   width: 100%;
   background-image: url("../Images/Bkg\ Banner.jpg");
   background-position: center;
-  background-size: cover;
-  box-shadow: -3px 3px 15px;
-  
+  background-size: cover;  
 }
 
 .banner h1{
