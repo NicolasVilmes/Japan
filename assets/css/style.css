@@ -124,28 +124,34 @@
   display: flex;
   background-color: #801300;
   height: 250px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 50%;
+  margin-left: 25%;
   border-radius: 50px;
   margin-top: 75px;
   margin-bottom: 75px;
 }
 
-.population h1{
-  margin-left: 20px;
+.inside h1{
   font-size: 21px;
   color: aliceblue;
 }
 
-.population{
+.inside{
   margin-left: 50px;
   margin-top: 25px;
   color: aliceblue;
+  align-items: center;
+  text-align: center;
 }
 
-.population img{
+.people{
   height: 150px;
   width: auto; 
     padding: 15px;
+}
+
+.map{
+  height: 150px;
+  width: auto;
+  margin-left: 25px;
 }
