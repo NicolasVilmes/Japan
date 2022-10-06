@@ -137,11 +137,11 @@
 }
 
 .inside{
-  margin-left: 50px;
   margin-top: 25px;
   color: aliceblue;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 .people{
