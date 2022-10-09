@@ -1,9 +1,9 @@
-function typeWrite(elemento) {
-  const textoArray = elemento.innerHTML.split("");
-  elemento.innerHTML = " ";
+function typeWrite(element) {
+  const textoArray = element.innerHTML.split("subtitle");
+  element.innerHTML = "h2";
   textoArray.forEach(function (letra, i) {
     setTimeout(function () {
-      elemento.innerHTML += letra;
+      element.innerHTML += letra;
     }, 75 * i);
   });
 }
