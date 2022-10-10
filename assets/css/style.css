@@ -12,11 +12,7 @@
       padding: 0%;
       font-family: jetbrains mono;
 }
-header{
-  position: -webkit-sticky;
-    position: sticky;
-    top: 0
-}
+
 
 .subtitle{
   color: aliceblue;
