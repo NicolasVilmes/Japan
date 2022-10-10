@@ -1,11 +1,11 @@
-function typeWrite(element) {
-  const textoArray = element.innerHTML.split("subtitle");
-  element.innerHTML = "h2";
-  textoArray.forEach(function (letra, i) {
-    setTimeout(function () {
-      element.innerHTML += letra;
-    }, 75 * i);
+const element = document.querySelector("h2");
+
+function digitatexto(element) {
+  const textArray = element.innerHTML.split("");
+  element.innerHTML = "";
+  textArray.forEach((Letra, i) => {
+    setTimeout(() => (element.innerHTML += Letra), 75 * i);
   });
 }
-const subtitle = document.querySelector(".subtitle");
-typeWrite(subtitle);
+
+setTimeout(digitatexto(element), 5000);
