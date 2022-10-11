@@ -32,3 +32,23 @@ function scroll() {
     }
   }
 }
+
+// Animate Scroll //
+
+const obj = document.querySelectorAll("[data-anime]");
+const animation = "animate";
+
+function animeScroll() {
+  const windowTop = window.pageYOffset + (window.innerHeight * 3) / 4;
+  obj.forEach(function (anime) {
+    if (windowTop > anime.offsetTop) {
+      anime.classList.add(animation);
+    } else {
+      anime.classList.remove(animation);
+    }
+  });
+}
+
+window.addEventListener("scroll", function () {
+  animeScroll();
+});
