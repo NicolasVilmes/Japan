@@ -13,6 +13,31 @@
       font-family: jetbrains mono;
 }
 
+.jp{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.end{
+  display: inline-flex;
+  align-self: center;
+  align-items: center;
+}
+
+.end img{
+  margin-left: 10%;
+  height: 225px;
+  width: auto;
+}
+.end h1{
+  font-size: 90px;
+  color: #CC1F00;
+}
+
 .subtitle{
   color: aliceblue;
   margin-bottom: 125px;
@@ -290,6 +315,8 @@
   color: rgba(187, 184, 184, 0.418);
   height: 55px;
 }
+
+    /* //Animation\\ */
 
 .origin:hover span {
   display: flex;
