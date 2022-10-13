@@ -13,7 +13,6 @@
       font-family: jetbrains mono;
 }
 
-
 .subtitle{
   color: aliceblue;
   margin-bottom: 125px;
@@ -104,6 +103,8 @@
 
 .secsection{
     display: grid;
+    width: 90%;
+    margin-left: 5%;
     grid-template-columns: repeat(2, 1fr);
     background-color: transparent;
     align-self: center;
@@ -122,6 +123,100 @@
   box-shadow:  3px 5px 3px 3px #CC1F00;
 }
 
+.thirdsec{
+    display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      background-color: transparent;
+      align-self: center;
+      margin-top: 75px;
+}
+
+.podium{
+  display: flex;
+  margin-left: 20%;
+  align-items: baseline;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.rank1{
+  background-color: var(--first-color);
+    align-self: flex-end;
+    height: 175px;
+    width: 20%;
+    margin-left: 5px;
+    margin-top: 75px;
+}
+
+.rank1 img {
+  margin-top: -145px;
+}
+
+.rank2{
+  background-color: var(--first-color);
+    align-self: flex-end;
+  height: 125px;
+  width: 20%;
+  margin-left: 5px;
+  margin-top: 75px;
+}
+
+.rank2 img {
+  margin-top: -125px;
+}
+
+.rank3{
+  background-color: var(--first-color);
+    align-self: flex-end;
+  height: 85px;
+  width: 20%;
+  margin-left: 5px;
+  margin-top: 75px;
+}
+
+.rank3 img{
+  margin-top: -140px;
+}
+
+.Yen-img {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  background-image: url(../Images/Yen.jfif );
+  padding: 100px;
+  margin-right: 51px;
+  margin-top: 55px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 5px 3px 3px #801300;
+}
+
+.agro-img {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  background-image: url(../Images/japan\ agro.jpg);
+  padding: 100px;
+  margin-right: 51px;
+  margin-top: 55px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 5px 3px 3px #CC1F00;
+}
+
+.ind-img {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  background-image: url(../Images/industries.jpg );
+  padding: 100px;
+  margin-right: 51px;
+  margin-top: 55px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 5px 3px 3px #801300;
+}
+
 .text{
  padding: 5rem;
  text-align: justify;
@@ -132,6 +227,12 @@
   margin-bottom: 30px;
   font-style:oblique;
   margin-left: 35px;
+}
+
+.text h2 {
+  padding: 10px;
+  font-size: 32px;
+  margin-bottom: 15px;
 }
 
 .text span{
@@ -178,9 +279,6 @@
   width: auto;
 }
 
-          /* Animações */
-
-
 .origin:hover {
   background-color: rgb(61, 59, 59);
   display: inline-flex;
@@ -211,11 +309,15 @@
 }
 
 [data-anime="left"] {
-  transform: translate3d(-75px, 0px, 0px);
+  transform: translate3d(-45px, 0px, 0px);
 }
 
 [data-anime="right"] {
-  transform: translate3d(75px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime="up"] {
+  transform: translateY(0px, 25px, 0px);
 }
 
 [data-anime].animate{
