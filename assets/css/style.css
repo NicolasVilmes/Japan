@@ -38,6 +38,14 @@
   color: #CC1F00;
 }
 
+.linha {
+  display: inline-block;
+  width: 8px;
+  height: 245px;
+  background-color: #CC1F00;
+  margin-right: 55px;
+}
+
 .subtitle{
   color: aliceblue;
   margin-bottom: 125px;
