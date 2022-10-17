@@ -5,7 +5,7 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -24,11 +24,14 @@ nav {
     width: 52px;
     height: auto;
     margin: 15%;
-    margin-left: -400%;
-    padding: 0%;
+    margin-left: 50%;
     display: block;
-    margin-top: 10px;
-    align-items: center;
+    margin-top: 10px; 
+    align-items: center; 
+}
+
+.nav-right{
+  margin-right: 120px;
 }
 
 .nav-list li{
@@ -36,6 +39,17 @@ nav {
   letter-spacing: 3px;
   margin-left: 32px; 
   font-size: 0.8em;
+}
+
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+}
+
+nav a:hover{
+  color: #CC1F00;
 }
 
 #firstnav {
