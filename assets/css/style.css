@@ -46,18 +46,6 @@
   margin-right: 55px;
 }
 
-.flex-1{
-  align-self: center;
-}
-
-.flex-1 p{
-  color: aliceblue;
-}
-
-.flex-1 a{
-  color: rgb(116, 116, 116);
-}
-
 .subtitle{
   color: aliceblue;
   margin-bottom: 125px;
@@ -120,7 +108,6 @@
 .origin img {
   height: 35px;
   width: 35px;
-  
   padding: 5px;
   background-color: rgb(61, 59, 59);
   opacity: 45%;
@@ -359,6 +346,11 @@
 }
 
 .map{
+  height: 150px;
+  width: auto;
+}
+
+.tokio {
   height: 150px;
   width: auto;
 }

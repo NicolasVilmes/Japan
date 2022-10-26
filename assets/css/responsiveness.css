@@ -1,0 +1,248 @@
+
+
+@media (min-width: 311px) and (max-width: 768px) {
+
+  .text{
+    padding: 1rem;
+  }
+
+  .text h1{
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .text h2 {
+    padding: 5;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .text span {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bar {
+    width: 10rem;
+    height: 10px;
+  }
+
+  .banner {
+    height: 415px;
+    margin-left: -200px;
+    width: auto;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+    padding: 110px;
+    margin-left: 110px;
+    color: rgb(171, 181, 188);
+  }
+
+  .subtitle {
+    margin-bottom: 62px;
+    margin-left: 210px;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .origin {
+    margin-left: 210px;
+    margin-top: 15px;
+    padding: 5px;
+  }
+
+  .origin img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .firstsection {
+    display: block;
+    width: 96%;
+    margin-left: 2%;
+  }
+
+  .firt-img {
+    display: block;
+    background-image: url(../Images/japan\ streets.jpg );
+      padding: 25px;
+      margin-right: 51px;
+      margin-top: 1155px;
+      border-radius: 20px;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 3px 5px 3px 3px #801300;
+    }
+  
+
+  .vision {
+    display: inline-flex;
+    height: 150px;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 55px;
+    margin-bottom: 25px;
+  }
+
+  .inside h1{
+    font-size: 12px;
+  }
+
+  .inside span{
+    font-size: 10px;
+  }
+
+
+  .inside {
+    margin-top: 10px;
+    align-items: center;
+      text-align: center;
+      margin: auto;
+  }
+
+  .people {
+    height: 55px;
+    margin-left: 25px;
+  }
+
+  .tokio {
+    height: 55px;
+  }
+
+  .map {
+    height: 55px;
+    margin-left: 20px;
+  }
+
+  .secsection {
+    display: block;
+    width: 96%;
+    margin-left: 2%;
+  }
+
+  .sec-img1 {
+    display: block;
+    background-image: url(../Images/laws.webp);
+    padding: 10px;
+    margin-left: 51px;
+    margin-top: 55px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 3px 5px 3px 3px #CC1F00;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  .space {
+    padding-left: 5px;
+    padding-right: 20px;
+  }
+
+  .header-search input {
+    max-width: 80px;
+  }
+
+  .h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .intro {
+    font-size: 70px;
+    line-height: 55px;
+  }
+
+  .banner span {
+    font-size: 15px;
+  }
+
+  .banner-images {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #00704a;
+    border-radius: 40%;
+    margin-right: 10px;
+    flex: 35%;
+  }
+
+  .area1 {
+    grid-template-columns: 1fr;
+  }
+
+  .area1-text {
+    padding: 40px;
+  }
+
+  .area2 {
+    grid-template-columns: 1fr;
+  }
+
+  .area2-text {
+    padding: 40px;
+  }
+
+  .area3 {
+    grid-template-columns: 1fr;
+  }
+
+  .area3-text {
+    padding: 40px;
+  }
+
+  .area4 {
+    grid-template-columns: 1fr;
+  }
+
+  .area4-content {
+    padding: 40px;
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 20px;
+  }
+}
+
+Navbar .navbar-brand {
+  font: 32px Viga;
+}
+
+
+@media (min-width: 992px) {
+  .navbar {
+    padding-top: 20px;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    margin: auto;
+    margin-bottom: -8px;
+    width: 50%;
+    padding-top: 5px;
+  }
+
+
+
+
+}
